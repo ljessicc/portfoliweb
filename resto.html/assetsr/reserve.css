@@ -1,0 +1,19 @@
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+.body{
+   box-sizing: border-box;
+   }
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-reserve{
+
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgb(124, 8, 8), white);
+}
